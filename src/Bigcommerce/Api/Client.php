@@ -50,7 +50,7 @@ class Client
      *
      * @var string
      */
-    private static $path_prefix = '/api/v2';
+    private static $path_prefix = '/api/v3';
 
     /**
      * Full URL path to the configured store API.
@@ -62,7 +62,7 @@ class Client
     private static $store_hash;
     private static $auth_token;
     private static $client_secret;
-    private static $stores_prefix = '/stores/%s/v2';
+    private static $stores_prefix = '/stores/%s/v3';
     private static $api_url = 'https://api.bigcommerce.com';
     private static $login_url = 'https://login.bigcommerce.com';
 
